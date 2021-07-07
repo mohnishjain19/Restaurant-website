@@ -1,0 +1,160 @@
+body {
+    background: white;
+    font-family: "Nunito", sans-serif;
+   /* background:url('bg-1.jpg') no-repeat ;*/
+}
+#mainNavbar {
+    font-size: 1.125rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+.active{
+	color:#EA1C2C;
+}
+.main-img{
+   
+    margin-bottom: 0px;
+     
+      
+}
+.container-fluid{
+	background-color: white;`
+}
+/*.float-md-right{
+	position: relative;
+	left:100px;
+}*/
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+.blurb h4 {
+   color: #882A77;
+   font-weight: 100;
+   font-size: 2.0rem;
+}
+
+.blurb p {
+    color: #882A77;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+.feedback{
+	color: #290F24;
+	margin-top: 50px;
+}
+.feedback h3{
+	font-size:30px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.jumbotron{
+	position: relative;
+	top:425px;
+	background-color:black;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	margin-top: 0;
+}
+.fb{
+	color:#3b5998;
+}
+.ig{
+	color:#882A77 ;
+}
+.content{
+	margin-top: 20px;
+	position: relative;
+	left:20px;
+    font-size: 1.5rem;
+    color:white;
+}
+.container .text-center{
+	height:300px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+span img {
+    width: 100%;
+    height: auto;
+}
+#abcd{
+    margin-top:100px;
+    padding-bottom:auto 0;
+    background-color:#FFFDD0;
+}
+.title{
+    font-family: sans-serif;
+    color: #dc2d5e;
+    text-align: center;
+}
+.tabContainer{
+    width: 80%;
+    height: 400px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 30px black;
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+}
+.tabContainer .buttonContainer button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: peachpuff;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d4d4;
+}
+.tabContainer .tabPanel{
+    height: 85%;
+    background-color: peachpuff;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: none;
+}
+
+.menuItem{
+	height: 80px;
+}

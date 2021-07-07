@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brewster's</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+</head>
+<body>
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">Brewster's</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="" class="nav-link ">HOME</a>
+                </li>
+                <li class="nav-item visible-md">
+                    <a href="" class="nav-link">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">FRANCHISE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">CONTACT US & FEEDBACK</a>
+                </li>
+            </ul>
+        </div>
+  <div class="collapse navbar-collapse float-md-right" id="navLinks">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a href="" class="nav-link pl-lg-5" >Login  <i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a href="" class="nav-link pl-lg-3" >Sign-Up <i class="fas fa-user-plus"></i></a>
+          </li>
+        </ul>
+</nav>
+<!-- main body image in diff sizes -->
+<section class="main-img">
+  <img src="bg-md.jpg" class="d-none d-sm-block d-md-none"> 
+  <img src="bg-md2.jpg" class="d-none d-md-block d-lg-none">
+  <img src="bg-2.jpg " class="d-none d-xl-block">
+</section>
+
+<!-- about us ...... menu........ contact form goes here -->
+<section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="milk.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>About Us</h2>
+                        <img src="lolli_icon.png" alt="" class="d-none d-lg-inline">
+                       <h4>WE ARE A COMPANY OF COOKS</h4>
+                        <p>We passionately believe that restaurant quality food can be made in every setting, and we are excited to share it with YOU!!!</p>
+                       <p>Roof Top Hotel With A Great View Of The City Of Namma Bengaluru</p>
+                       <p>Live On Roof Pasta And Chinese Food Counter</p>
+                        <p>We Offer Dine-In & Take-Away </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section>
+  <div class="container-fluid feedback">
+    <!-- feedback  -->
+    <header>
+
+            <div class="container text-center">
+                <h1>Get in Touch</h1>
+                <h1 >Contact us</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <form>
+                            <div class="form-group">
+                                <h5><label for="exampleInputName">Name</label></h5>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
+                                </div>
+                            <div class="form-group">
+                            <h5><label for="exampleInputEmail1">Email address</label></h5>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                           
+                            </div>
+                            <div class="form-group">
+                            <h5><label for="exampleInputSubject">Subject</label></h5>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <h5><label for="exampleInputMessage">Message</label></h5>
+                                <textarea class="form-control">Your message</textarea>
+                                </div>
+                           
+                            <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                        </form>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h2>Office address</h2>
+                                <p><img src="https://img.icons8.com/android/24/000000/marker.png"/>Bull Temple Rd,Basavanagudi,Bengaluri,Karnataka-560019</p>
+                                <p><img src="https://img.icons8.com/android/24/000000/phone.png"/>+91- 7985225511</p>
+                                <p><img src="https://img.icons8.com/android/24/000000/phone.png"/>+91- 7974077586</p>
+                                <p><img src="https://img.icons8.com/material-sharp/24/000000/new-post.png"/>rahulnayak.ec19@bmsce.ac.in</p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.383636872811!2d77.56549351527458!3d12.947285690871794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15f7326dea6b%3A0x5a5e6b94a257a37c!2sBull%20Temple%20Rd%2C%20Bengaluru%2C%20Karnataka%20560019!5e0!3m2!1sen!2sin!4v1596183869441!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+                </div>
+                
+            </div>
+        </div>
+
+        </header>
+  </div>
+  
+</section>
+
+<footer>
+  <div class="jumbotron fixed-bottom">
+    <div id="icon-pack" class="row justify-content-center">
+  <div id="footer" style="font-size: 3rem;">
+  <a class="fb" href="https://www.facebook.com/"  target="_blank"><i class="fab fa-facebook-f fa-fw blue-text"></i></a>
+  <a class="tw" href="https://twitter.com/Rahulanilnayak1/" target="_blank"><i class="fab fa-twitter fa-fw blue-text"></i></a>
+  <a class="ig" href="https://www.instagram.com/invites/contact/?i=12hrzo7izpojk&utm_content=pypw1h"  target="_blank"><i class="fab fa-instagram fa-fw pink-text"></i></a>
+  </div>
+  <div class="content">
+    <p>&reg Brewster's 2020</p>
+  </div>
+
+</div> 
+  <div>
+    <h5>Address <i class="fas fa-map-marker-alt"></i></h5>
+  </div>
+  
+  <div>Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560019</div>
+  
+</div>
+</div>
+</footer>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+css
+
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+   /* background:url('bg-1.jpg') no-repeat ;*/
+}
+#mainNavbar {
+    font-size: 1.125rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+.active{
+  color:#EA1C2C;
+}
+.main-img{
+  margin-bottom: 0px;
+}
+.container-fluid{
+  background-color: #f5d9d5;`
+}
+/*.float-md-right{
+  position: relative;
+  left:100px;
+}*/
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+.blurb h4 {
+   color: #882A77;
+   font-weight: 100;
+   font-size: 2.0rem;
+}
+
+.blurb p {
+    color: #882A77;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+.feedback{
+  color: #290F24;
+  margin-top: 50px;
+}
+.feedback h3{
+  font-size:30px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.jumbotron{
+  position: relative;
+  top:425px;
+  background-color: pink;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+.fb{
+  color:#3b5998;
+}
+.ig{
+  color:#882A77 ;
+}
+.content{
+  margin-top: 20px;
+  position: relative;
+  left:20px;
+  font-size: 1.5rem;
+}
+.container .text-center{
+  height:300px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
